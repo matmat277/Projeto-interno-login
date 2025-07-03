@@ -1,21 +1,33 @@
 * {
   margin: 0;
   padding: 0;
+  border: 0;
+  font-size: 100%;
   box-sizing: border-box;
+  vertical-align: baseline;
   font-family: Verdana, Arial, Helvetica, sans-serif, sans-serif;
 }
 
 .container {
+  display: flex;
+  content: center;
+  flex-direction: column;
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 40px auto; 
+  padding: 32px 24px;
+  border: 1px solid #ddd;
+  background: #fff;
 }
 
-a {
-  text-decoration: none;
-  color: #000;
-}
 
+
+
+.VorticePNG {
+  width: 10px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
 /* Lembrete: incluir botões login por google, email e esqueci minha senha*/
 /* Também incluir o botão de cadastro */
