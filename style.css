@@ -1,33 +1,50 @@
 * {
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
+  border: 0; 
   box-sizing: border-box;
-  vertical-align: baseline;
-  font-family: Verdana, Arial, Helvetica, sans-serif, sans-serif;
+  font-family: Verdana, Arial, Helvetica, sans-serif  ;
 }
 
-.container {
+body {
   display: flex;
-  content: center;
-  flex-direction: column;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
   max-width: 1200px;
   margin: 40px auto; 
   padding: 32px 24px;
   border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background: #fff;
 }
 
+.label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
 
+#submit {
+  width: 10%;
+  padding: 10px;
+  background-color: #4593a9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
+.forgot {
+  font: size 0.001rem;
+}
 
 .VorticePNG {
   width: 10px;
-  height: auto;
+  width: 30%;
   display: block;
   margin: 20px auto;
+  align-self: left;
 }
 /* Lembrete: incluir botões login por google, email e esqueci minha senha*/
 /* Também incluir o botão de cadastro */
